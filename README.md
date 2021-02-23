@@ -4,6 +4,12 @@ MRM collects data on products displayed on food and drink menus. Although the pr
 
 In this test we would like you to create the code that takes a CSV file containing product details entered by users on menus and finds matches to known product brand names.
 
+Outcomes:
+
+- We are looking for clarity in the way you structure and write your code
+- We would like your solution to the problem to be simple - don't re-invent the wheel if there are great solutions out there you can apply
+- We would like your solution to demonstrate your understanding of successfully extracting valuable information from messy data
+
 Data sources:
 
 - `input.csv`: A dump of product names and descriptions entered by users on menus
