@@ -19,16 +19,17 @@ Your code should demonstrate this functionality:
 
 - Some business logic that takes the `input.csv` file as an input stream and uses stream processing to analyse each row
 - Some business logic that uses a pattern matching approach of your choice to identify if a row contains term matches from the `terms.csv` (consider terms in the `input.csv` not being spelled correctly)
-- A data layer that writes matches found in form of `MenuId`, `TermId` to a Postgres database using a write stream
+- A data layer that writes matches found in form of `MenuId`, `TermId` to a relational database using a write stream
 
 Constraints:
 
 - Use Python
-- Use Postgres to store matches
+- Use a relational database of your choice to store matches
 - To make your code scaleable, everything has to be streamed
 - Use any frameworks and libraries of your choice
 - Write unit tests
-- Timebox your work to not more than 4 hours
+- Set yourself a time limit
+- Includes notes in your code where you would like improve or extend it, if you had more time 
 
 Bonus task:
 
