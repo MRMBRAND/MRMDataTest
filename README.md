@@ -21,12 +21,15 @@ Your code should demonstrate this functionality:
 - Some business logic that uses a pattern matching approach of your choice to identify if a row contains term matches from the `terms.csv` (consider terms in the `input.csv` not being spelled correctly)
 - A data layer that writes matches found in form of `MenuId`, `TermId` to a relational database using a write stream
 
-Constraints:
+Must-haves:
 
 - Use Python
 - Use a relational database of your choice to store matches
-- To make your code scaleable, everything has to be streamed
+- Use streams to make your code scaleable
 - Use any frameworks and libraries of your choice
+
+Things to remember:
+
 - Write unit tests
 - Set yourself a time limit
 - Includes notes in your code where you would like improve or extend it, if you had more time 
